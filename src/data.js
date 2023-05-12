@@ -1,0 +1,51 @@
+export const productsData = [
+	{
+		id: 1,
+		name: "Product1 Name",
+		price: 20,
+		category: "dress",
+		img: "/public/bread.jpeg",
+	},
+	{
+		id: 2,
+		name: "Product Name",
+		price: 10,
+		category: "casual",
+		img: "/public/bread.jpeg",
+	},
+	{
+		id: 3,
+		name: "Product Name",
+		price: 15,
+		category: "sports",
+		img: "/public/bread.jpeg",
+	},
+	{
+		id: 4,
+		name: "Product Name",
+		price: 20,
+		category: "luxury",
+		img: "/public/bread.jpeg",
+	},
+	{
+		id: 5,
+		name: "Product Name",
+		price: 20,
+		category: "dress",
+		img: "/public/bread.jpeg",
+	},
+	{
+		id: 6,
+		name: "Product Name",
+		price: 20,
+		category: "casual",
+		img: "/public/bread.jpeg",
+	},
+	{
+		id: 7,
+		name: "Product Name",
+		price: 30,
+		category: "luxury",
+		img: "/public/bread.jpeg",
+	},
+];
