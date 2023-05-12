@@ -12,6 +12,8 @@ This is an advanced responsive filtering created with React. Many filtering meth
 ![advanced-filtering-search](https://github.com/Joniekesh/advanced-react-filter/assets/73966666/1946a227-59cd-4cdd-919a-fb907c45f87d)
 # Filter by sports category
 ![advanced-filtering-tablet](https://github.com/Joniekesh/advanced-react-filter/assets/73966666/8d04840d-71ed-4163-9e9e-629a3026a0a2)
+# Filter by price range
+![advanced-filtering-price-range](https://github.com/Joniekesh/advanced-react-filter/assets/73966666/dd51d69b-a660-4c80-b0ca-d86328317aeb)
 # Mobile Responsive View
 ![advanced-filtering-mobile](https://github.com/Joniekesh/advanced-react-filter/assets/73966666/50b95de3-8138-4787-8abf-a86ae5207192)
 
