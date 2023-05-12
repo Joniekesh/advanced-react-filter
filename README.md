@@ -1,5 +1,5 @@
 # advanced-react-filter
-#URL:https://advanced-filtering.netlify.app/
+# URL:https://advanced-filtering.netlify.app/
 This is an advanced responsive filtering created with React. Many filtering methods are implemented in this project namely:
 1. Filtering By Category.
 2. Filtering By Search Text.
