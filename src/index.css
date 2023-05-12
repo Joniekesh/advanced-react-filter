@@ -6,4 +6,5 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 	background-color: #e0e0e0f9;
 	color: #333;
+	overflow-x: hidden;
 }

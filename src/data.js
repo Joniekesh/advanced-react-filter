@@ -57,8 +57,8 @@ export const productsData = [
 	},
 	{
 		id: 9,
-		name: "Racing Bike",
-		price: 20000,
+		name: "Racing Bikeers Wear",
+		price: 999,
 		category: "sports",
 		img: "https://images.pexels.com/photos/1119796/pexels-photo-1119796.jpeg?auto=compress&cs=tinysrgb&w=600",
 	},
