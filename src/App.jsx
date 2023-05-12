@@ -57,8 +57,10 @@ const App = () => {
 	return (
 		<div className="app">
 			<div className="navbar">
-				<h3>jonieDev</h3>
-				<h2>ADVANCED FILTERING</h2>
+				<div className="navbarContainer">
+					<h3>jonieDev</h3>
+					<h2>ADVANCED FILTERING</h2>
+				</div>
 			</div>
 			<div className="container">
 				<div className="sidebar">

@@ -6,20 +6,25 @@
 }
 
 .navbar {
-	display: flex;
-	align-items: center;
-	gap: 80px;
 	background-color: #0077b5;
 	color: white;
 	width: 100vw;
+	position: sticky;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+.navbarContainer {
+	width: 90%;
+	display: flex;
+	align-items: center;
+	gap: 80px;
 	padding: 10px 50px;
 	min-height: 50px;
 	display: flex;
 	align-items: center;
 	font-weight: bold;
-	position: sticky;
-	top: 0;
-	left: 0;
 }
 
 .container {
@@ -92,6 +97,8 @@
 	border-radius: 8px;
 	overflow: hidden;
 	transition: all 0.5s ease-in-out;
+	padding: 10px;
+	cursor: pointer;
 }
 
 .product:hover {
@@ -107,4 +114,39 @@ img {
 	width: 100%;
 	height: 50%;
 	object-fit: cover;
+	border-radius: 10px;
+}
+
+@media screen and (max-width: 600px) {
+	.navbarContainer {
+		gap: unset;
+		justify-content: space-between;
+		padding: 10px;
+	}
+
+	h2 {
+		font-size: 18px;
+	}
+
+	.container {
+		flex-direction: column;
+		padding: 0px;
+	}
+
+	.sidebar {
+		width: 100%;
+	}
+
+	.categories {
+		flex-direction: unset;
+		flex-wrap: wrap;
+	}
+
+	.content {
+		margin-top: -30px;
+	}
+
+	.product {
+		width: 100%;
+	}
 }
