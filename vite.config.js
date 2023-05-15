@@ -8,11 +8,7 @@ export default defineConfig({
 		react(),
 		VitePWA({
 			registerType: "prompt",
-			includeAssets: [
-				"favicon.ico",
-				"apple-touch-icon.png",
-				"maskable225x225.png",
-			],
+			includeAssets: ["favicon.ico", "apple-touch-icon.png", "maskable.png"],
 			manifest: {
 				name: "Advanced Filter",
 				short_name: "Filter",
@@ -36,8 +32,8 @@ export default defineConfig({
 						type: "img/png",
 					},
 					{
-						src: "maskable225x225.png",
-						sizes: "134x134",
+						src: "maskable.png",
+						sizes: "512x512",
 						type: "img/png",
 						purpose: "any maskable",
 					},
