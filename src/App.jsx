@@ -8,6 +8,7 @@ const App = () => {
 
 	const [products, setProducts] = useState(productsData);
 
+	// category array
 	const categories = productsData.map((product) => product.category);
 
 	const filteredCats = [
